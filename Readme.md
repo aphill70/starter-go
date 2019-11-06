@@ -24,7 +24,3 @@ go run main.go age -sum
 go run main.go age -average
 go run main.go age -product
 ```
-
-```bash
-go run main.go birthday <name>
-```

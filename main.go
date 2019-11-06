@@ -20,12 +20,16 @@ func isOldest(scout string) {
 
 // birthday Take the scouts name and print their birthday
 func birthday(scout string) {
+	birthday := ""
 
+	fmt.Printf("%s's birthday is: %s", scout, birthday)
 }
 
 // age prints the age processed based on the command
-func age(scout, action string) {
+func age(action string) {
+	result := 0
 
+	fmt.Printf("The scouts %s age is: %d\n", action, result)
 }
 
 func main() {
@@ -89,12 +93,7 @@ func main() {
 					cmd = "product"
 				}
 
-				scout := c.Args().First()
-				if scout == "" {
-					return fmt.Errorf("Invalid scout name")
-				}
-
-				age(scout, cmd)
+				age(cmd)
 
 				return nil
 			},

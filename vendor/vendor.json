@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "D2oD3TNp70QHO1psV4E/eNZH9Ek=",
+			"path": "github.com/urfave/cli",
+			"revision": "850de854cda08e97afb500b72967f1a56f0330e5",
+			"revisionTime": "2019-10-24T04:26:01Z"
+		}
+	],
+	"rootPath": "github.com/aphill70/scouts-go"
+}
